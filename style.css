@@ -1,0 +1,80 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myh1{
+    font-family: Georgia, serif;
+    color: purple;
+}
+
+.myh2{
+    color: purple;
+}
+
+.container{
+    background-color: white;
+    border: purple 5px solid;
+    border-radius: 30px;
+    height: 18rem;
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns{
+    display: flex;
+    gap: 2em;
+    justify-content: space-around;
+}
+
+.btn{
+    height: 3em;
+    width: 7em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+
+
+#Start{
+    background-color: rgb(101, 168, 0);
+}
+#Start:hover{
+    background-color: green;
+}
+
+#Stop{
+    background-color: red;
+}
+#Stop:hover{
+    background-color: maroon;
+}
+
+#Reset{
+    background-color: rgb(58, 198, 198);
+}
+#Reset:hover{
+    background-color: rgb(32, 32, 69);
+}
+
+.myh2{
+    font-size: 3em;
+}
